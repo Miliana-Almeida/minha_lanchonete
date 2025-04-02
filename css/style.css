@@ -1,0 +1,169 @@
+/* Estilos gerais */
+body {
+
+/* Imagem de Fundo  */
+.gradient-background {
+    background-image: url(./imagens/fundo.png); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+    padding: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+/* ... seu CSS existente ... */
+
+.menu-container h1 {
+    font-family: "Bungee Tint", sans-serif;
+}
+
+/* Container principal */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: calc(100vh - 140px);
+    /* Garante altura mínima para exibir todo o conteúdo */
+}
+
+
+.outer-container {
+    padding: 20px;
+}
+
+/* Estilos dos ícones de redes sociais */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    background-color: DarkRed;
+    padding: 10px 0;
+    margin-bottom: 10px;
+	border-radius: 8px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 20px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Efeito hover nos ícones das redes sociais */
+.social-icons a:hover {
+    color: orange;
+}
+
+/* Cardápio */
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/* Item de cardápio */
+.menu-item {
+	font-family: "Bungee Tint", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.item-info {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-info label {
+    margin-right: 10px;
+    /* Add some spacing between label and input */
+}
+
+.item-info input {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.menu-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+/* Botão */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Resumo do pedido */
+.order-summary {
+	font-family: "Bungee Tint", sans-serif;
+    background-color: rgba(234, 241, 230, 0.8);
+    padding: 20px;
+    margin-top: 10px;
+    border: 2px solid #c1d7c4;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resumoPedido {
+	font-family: "Bungee Tint", sans-serif;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: DarkRed;
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
